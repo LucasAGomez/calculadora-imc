@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, rgb(255, 166, 0), white);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    padding: 25px 0 25px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 25% 0 25%;
+    border: 2px solid black;
+    padding: 25px 0 25px 0;
+}
+
+main div {
+    padding-top: 25px;
+}
+
+main div input {
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 8px 30px 8px 30px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+main div p {
+    padding-top: 15px;
+}
+
